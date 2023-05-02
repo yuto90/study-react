@@ -1,4 +1,9 @@
 {
     // インポートは絶対パスにする
-    "javascript.preferences.importModuleSpecifier": "non-relative"
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+    "editor.formatOnSave": true
 }
